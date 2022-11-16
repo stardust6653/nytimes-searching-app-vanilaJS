@@ -1,1 +1,3 @@
-# nytimes-searching-app-vanilaJS
+# NYT-Search-Web
+
+DO NOT PUSH TO MAIN

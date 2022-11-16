@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Newyork Times</title>
+  </head>
+  <body>
+    <div class="component">
+      <div id="search_area">
+        <h1>Newyork Times</h1>
+        <div class="search_zone">
+          <form class="search_form">
+            <input placeholder="검색어를 입력해주세요." class="search_input" type="text" required />
+            <button class="search_btn">검색</button>
+          </form>
+          <button class="delete_btn">초기화</button>
+          <button class="clip_view">즐겨찾기 보기</button>
+        </div>
+        <div class="recently_search"></div>
+      </div>
+      <div id="news_area"></div>
+    </div>
+    <script src="apikey.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

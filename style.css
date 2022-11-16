@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.component {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  line-height: 10px;
+  height: 12px;
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  padding: 0 5px;
+  cursor: pointer;
+  border-right: 3px solid #333;
+  padding-right: 7px;
+}
+
+button:hover {
+  border-right: 3px solid rgb(106, 131, 196);
+}
+
+#search_area {
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_zone {
+  height: 50px;
+  width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_form {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 50%;
+}
+
+.search_input {
+  font-size: 15px;
+  text-align: center;
+  padding: 5px 0;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #333;
+}
+
+.search_input:hover,
+.search_input:focus {
+  border-bottom: 2px solid rgb(106, 131, 196);
+}
+
+.search_btn {
+  width: auto;
+  display: block;
+  margin-left: 10px;
+}
+
+button:last-child {
+  margin-left: 3px;
+}
+
+span {
+  padding: 0 5px;
+}
+
+span:first-child {
+  padding-left: 0;
+}
+
+.clip_view {
+  width: auto;
+  display: block;
+  margin-left: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 8em;
+  margin: 30px 0;
+}
+
+#news_area {
+  width: 50%;
+  margin-top: 3rem;
+}
+
+.news_card {
+  padding: 30px;
+  margin-bottom: 30px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.news_card h3 {
+  font-size: 25px;
+  width: 40%;
+  margin-bottom: 15px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid black;
+}
+
+.news_card p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.news_card button {
+  border: none;
+  background-color: transparent;
+  display: block;
+  padding: 0 7px 0 0;
+  margin-left: 0;
+}
+
+.news_card button:nth-child(3) {
+  margin-bottom: 15px;
+}
+
+.news_card button:last-child {
+  border: none;
+  background-color: transparent;
+  display: block;
+}
+
+.news_card a {
+  color: black;
+  text-decoration: none;
+}
+
+.news_card button:hover {
+  border-right: 3px solid rgb(106, 131, 196);
+}
+
+a:hover,
+a:active,
+a:focus,
+a:visited {
+  color: black;
+}
